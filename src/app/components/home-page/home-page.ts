@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { NgIf } from '@angular/common';
+import {MatCardModule} from '@angular/material/card';
 @Component({
   selector: 'app-home-page',
-  imports: [MatToolbarModule,MatButtonModule,NgIf],
+  imports: [MatToolbarModule,MatButtonModule,NgIf, MatCardModule],
   templateUrl: './home-page.html',
   
   styleUrl: './home-page.css',
